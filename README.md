@@ -1,2 +1,2 @@
 # DL-MREproject
-identify foods and generate a recipe
+This project classifies food images into one of 101 categories using a convolutional neural network, then generates a full recipe for the top prediction(s) using a fine-tuned/prompted Llama-2-7b language model. It was built as a class project (DL) combining computer vision and NLP: the CNN handles image recognition while Llama-2 synthesizes recipe text conditioned on the predicted dish and reference recipe data. Built with PyTorch, Hugging Face Transformers (with 4-bit quantization via BitsAndBytesConfig), and pandas for data handling.
